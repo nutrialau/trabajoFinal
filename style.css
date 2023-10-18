@@ -18,7 +18,7 @@ header h4{
 
 .container{
     max-width: 1000px;
-    margin:auto   
+    margin:auto;   
 }
 
 .row{
@@ -39,10 +39,16 @@ header h4{
 
 .col-menu{
     background-color: aqua;
-    width: 20%;
     height: 70%;
-    padding: 20px 10px 50px 10px;
+    padding: 20px 15px 50px 2px;
     margin-left: 10px;
+    font-size: 10px;
+}
+
+ul{
+    list-style: none;
+    overflow: hidden;
+
 }
 
 /*Estilo section cuerpo*/
@@ -61,3 +67,15 @@ header h4{
 
 /* Responsive */
 
+@media (min-width: 480px){
+    .col-menu{
+        width: 35%;
+        padding: 0;
+
+    }
+    .col-menu h3 {
+        font-size: 5px;
+    }
+
+
+}
