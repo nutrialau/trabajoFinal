@@ -3,7 +3,6 @@
 
 header{
     background-color: rgb(219, 144, 82);
-
     text-align: center;
 }
 
@@ -53,8 +52,12 @@ header h4{
 }
 
 .col-cuerpo .row div{
-    
+
 }
 
 
 /*Estilo section aside*/
+
+
+/* Responsive */
+
