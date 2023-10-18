@@ -1,6 +1,10 @@
 
 /*Estilo header*/
 
+*{
+    box-sizing: border-box;
+}
+
 header{
     background-color: rgb(219, 144, 82);
     text-align: center;
@@ -16,39 +20,34 @@ header h4{
 
 /*Estilo section*/
 
-.container{
-    max-width: 1000px;
-    margin:auto;   
+section{
+    display: flex;
+    align-content: center;
+    margin:auto;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    background-color: blue;
+
 }
 
-.row{
-    margin:8px -16px;
-}
-
-.row .col-menu,
-.row .col-aside{
-    float: left;
-    width: 25%;
-}
-.row .col-cuerpo{
-    float: left;
-    width: 45%;
-}
-
-/*Estilo section Menu*/
-
-.col-menu{
-    background-color: aqua;
-    height: 70%;
-    padding: 20px 15px 50px 2px;
+.menu{
+    background-color: blueviolet;
+    width: 8%;
     margin-left: 10px;
-    font-size: 10px;
+
 }
 
-ul{
-    list-style: none;
-    overflow: hidden;
+.cuerpo{
+    background-color: brown;
+    width: 65%;
+    margin-left: 20px;
+    margin-right: 20px;    
+}
 
+.aside{
+    background-color: chartreuse;
+    width: 12%;
 }
 
 /*Estilo section cuerpo*/
@@ -68,14 +67,7 @@ ul{
 /* Responsive */
 
 @media (min-width: 480px){
-    .col-menu{
-        width: 35%;
-        padding: 0;
-
-    }
-    .col-menu h3 {
-        font-size: 5px;
-    }
+    
 
 
 }
