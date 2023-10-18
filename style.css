@@ -1,1 +1,60 @@
-style.css
+
+/*Estilo header*/
+
+header{
+    background-color: rgb(219, 144, 82);
+
+    text-align: center;
+}
+
+.tituloPagina{
+
+}
+
+header h4{
+
+}
+
+/*Estilo section*/
+
+.container{
+    max-width: 1000px;
+    margin:auto   
+}
+
+.row{
+    margin:8px -16px;
+}
+
+.row .col-menu,
+.row .col-aside{
+    float: left;
+    width: 25%;
+}
+.row .col-cuerpo{
+    float: left;
+    width: 45%;
+}
+
+/*Estilo section Menu*/
+
+.col-menu{
+    background-color: aqua;
+    width: 20%;
+    height: 70%;
+    padding: 20px 10px 50px 10px;
+    margin-left: 10px;
+}
+
+/*Estilo section cuerpo*/
+.carrusel{
+    float:left;
+    width: 80%;
+}
+
+.col-cuerpo .row div{
+    
+}
+
+
+/*Estilo section aside*/
