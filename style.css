@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     margin: 0;
+    padding: 0;
 }
 
 /*Estilo body*/
@@ -42,20 +43,6 @@ section {
 
 }
 
-.carrusel {
-    display: flex;
-    flex-wrap: wrap;
-    overflow: hidden;
-}
-
-.elemento {
-    flex: 1 0 auto;
-    margin: auto;
-    background-color: rgb(59, 59, 146);
-    width: 100px;
-    height: 100px;
-}
-
 .nav-link {
     color: rgb(124, 55, 14);
     text-decoration: none;
@@ -78,13 +65,10 @@ section {
 .aside {
     background-color: rgba(128, 255, 0, 0);
     width: 12%;
+    margin-left: auto;
 }
 
 /*Estilo section cuerpo*/
-.carrusel {
-    float: left;
-    width: 80%;
-}
 
 .col-cuerpo .row div {}
 
