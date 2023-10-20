@@ -1,3 +1,8 @@
+/*Estilo body*/
+body{
+   background-image: url(./images/fondo_lila.jpg);
+    background-repeat: repeat;
+}
 
 /*Estilo header*/
 
@@ -6,7 +11,7 @@
 }
 
 header{
-    background-color: rgb(219, 144, 82);
+    background-color: rgba(219, 144, 82, 0.178);
     text-align: center;
 }
 
@@ -27,26 +32,26 @@ section{
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
-    background-color: blue;
+    background-color: rgba(238, 255, 0, 0.164);
 
 }
 
 .menu{
-    background-color: blueviolet;
+    background-color: rgba(137, 43, 226, 0.178);
     width: 8%;
     margin-left: 10px;
 
 }
 
 .cuerpo{
-    background-color: brown;
+    background-color: rgba(165, 42, 42, 0.178);
     width: 65%;
     margin-left: 20px;
     margin-right: 20px;    
 }
 
 .aside{
-    background-color: chartreuse;
+    background-color: rgba(128, 255, 0, 0.178);
     width: 12%;
 }
 
