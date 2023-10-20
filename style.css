@@ -42,15 +42,24 @@ section {
 
 }
 
-.carrusel{
+.carrusel {
     display: flex;
-    flex-wrap: nowrap;
-    overflow: scroll;
+    flex-wrap: wrap;
+    overflow: hidden;
 }
+
+.elemento {
+    flex: 1 0 auto;
+    margin: auto;
+    background-color: rgb(59, 59, 146);
+    width: 100px;
+    height: 100px;
+}
+
 .nav-link {
     color: rgb(124, 55, 14);
     text-decoration: none;
-    
+
 }
 
 .cuerpo {
@@ -63,7 +72,7 @@ section {
     font-size: larger;
     font-weight: bold;
     text-align: justify;
-    
+
 }
 
 .aside {
