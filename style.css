@@ -1,34 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
 /*Estilo body*/
-body{
-   background-image: url(./images/fondo_lila.jpg);
+body {
+    background-image: url(./images/fondo_lila.jpg);
     background-repeat: repeat;
+    font-family: sans-serif;
 }
 
 /*Estilo header*/
-
-*{
-    box-sizing: border-box;
-}
-
-header{
+header {
     background-color: rgba(219, 144, 82, 0.178);
     text-align: center;
 }
 
-.tituloPagina{
+.tituloPagina {}
 
-}
-
-header h4{
-
-}
+header h4 {}
 
 /*Estilo section*/
-
-section{
+section {
     display: flex;
     align-content: center;
-    margin:auto;
+    margin: auto;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
@@ -36,34 +32,33 @@ section{
 
 }
 
-.menu{
+.menu {
     background-color: rgba(137, 43, 226, 0.178);
     width: 8%;
     margin-left: 10px;
+    position: fixed;
 
 }
 
-.cuerpo{
+.cuerpo {
     background-color: rgba(165, 42, 42, 0.178);
     width: 65%;
     margin-left: 20px;
-    margin-right: 20px;    
+    margin-right: 20px;
 }
 
-.aside{
+.aside {
     background-color: rgba(128, 255, 0, 0.178);
     width: 12%;
 }
 
 /*Estilo section cuerpo*/
-.carrusel{
-    float:left;
+.carrusel {
+    float: left;
     width: 80%;
 }
 
-.col-cuerpo .row div{
-
-}
+.col-cuerpo .row div {}
 
 
 /*Estilo section aside*/
@@ -71,8 +66,4 @@ section{
 
 /* Responsive */
 
-@media (min-width: 480px){
-    
-
-
-}
+@media (min-width: 480px) {}
